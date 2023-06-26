@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  @apply bg-slate-100;
+}
+
+.index {
+  z-index:-1;
+}
+
+.slick-next {
+  display: none !important;
+}
+.slick-prev {
+  display: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+} 
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+  @apply rounded-t-xl;
+  @apply rounded-b-xl;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-transparent;
+  @apply rounded-t-xl;
+  @apply rounded-b-xl;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-300;
+  @apply rounded-t-xl;
+  @apply rounded-b-xl;
+  @apply cursor-pointer;
+}
