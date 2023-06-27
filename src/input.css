@@ -21,26 +21,26 @@ body {
   display: none !important;
 }
 
-.style1::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
 } 
 
 /* Track */
-.style1::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   @apply bg-transparent;
   @apply rounded-t-xl;
   @apply rounded-b-xl;
 }
 
 /* Handle */
-.style1::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   @apply bg-transparent;
   @apply rounded-t-xl;
   @apply rounded-b-xl;
 }
 
 /* Handle on hover */
-.style1::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   @apply bg-gray-300;
   @apply rounded-t-xl;
   @apply rounded-b-xl;
