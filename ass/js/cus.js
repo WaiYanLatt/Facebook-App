@@ -21,6 +21,7 @@ let notiPhone = document.querySelector(".notiphone");
 let Noticard = document.querySelector(".noticard");
 let Profile = document.querySelector(".profilephone");
 let Profilecard = document.querySelector(".profilecard");
+let SecondNav = document.querySelector(".secondnev")
 
 sugge.addEventListener("click", () => {
   card1.classList.remove("hidden");
