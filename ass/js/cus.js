@@ -13,6 +13,14 @@ let zIn = document.querySelector(".z-in");
 let Cardforphone = document.querySelector(".cardforphone");
 let btnPhone = document.querySelector(".srcbtnforphone");
 let btnPhone2 = document.querySelector(".srcbtnforphone2");
+let Menuphone = document.querySelector(".menuphone");
+let Menuphonebtn = document.querySelector(".menuphonebtn");
+let phoneMess = document.querySelector(".phonemess");
+let Messenger = document.querySelector(".messephone");
+let notiPhone = document.querySelector(".notiphone");
+let Noticard = document.querySelector(".noticard");
+let Profile = document.querySelector(".profilephone");
+let Profilecard = document.querySelector(".profilecard");
 
 sugge.addEventListener("click", () => {
   card1.classList.remove("hidden");
@@ -47,8 +55,24 @@ btnPhone.addEventListener("click", () => {
 });
 
 btnPhone2.addEventListener("click", () => {
-    Cardforphone.classList.add("hidden");
-  });
+  Cardforphone.classList.add("hidden");
+});
+
+Menuphonebtn.addEventListener("click", () => {
+  Menuphone.classList.toggle("hidden");
+});
+
+Messenger.addEventListener("click", () => {
+  phoneMess.classList.toggle("hidden");
+});
+
+notiPhone.addEventListener("click", () => {
+  Noticard.classList.toggle("hidden");
+});
+
+Profile.addEventListener("click", () => {
+  Profilecard.classList.toggle("hidden");
+});
 
 $(".responsive").slick({
   dots: false,
