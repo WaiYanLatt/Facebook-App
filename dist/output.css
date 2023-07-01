@@ -833,6 +833,34 @@ video {
   height: 100vh;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
+.h-\[270px\] {
+  height: 270px;
+}
+
+.h-\[470px\] {
+  height: 470px;
+}
+
+.h-\[20px\] {
+  height: 20px;
+}
+
+.h-\[300-x\] {
+  height: 300-x;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1086,11 +1114,6 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-bottom {
-  -o-object-position: bottom;
-     object-position: bottom;
 }
 
 .p-1 {

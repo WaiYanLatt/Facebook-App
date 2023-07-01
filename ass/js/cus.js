@@ -111,3 +111,25 @@ $(".responsive").slick({
     // instead of a settings object
   ],
 });
+
+
+$(".hero").slick({
+  dots: false,
+  infinite: true,
+  autoplay: true,
+  speed: 500,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ],
+});
