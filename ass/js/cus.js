@@ -23,6 +23,35 @@ let Profile = document.querySelector(".profilephone");
 let Profilecard = document.querySelector(".profilecard");
 let SecondNav = document.querySelector(".secondnev")
 
+function showMent() {
+  let addMent = document.querySelector(".add-ment");
+  let ShowComment = document.querySelector(".show-comment");
+  let valueMent = addMent.value;
+  let CreateElement = document.createElement("div");
+  let CreateElement1 = document.createElement("div");
+  let Createimg = document.createElement("img");
+  let src = document.createAttribute("src");
+  src.value = "/ass/img/waiyan.jpg";
+  Createimg.setAttributeNode(src);
+  Createimg.classList.add("w-10");
+  Createimg.classList.add("h-10");
+  Createimg.classList.add("rounded-full");
+  CreateElement.textContent = valueMent;
+  CreateElement1.classList.add("ml-5");
+  CreateElement1.classList.add("flex");
+  CreateElement1.classList.add("space-x-2");
+  CreateElement.classList.add("bg-gray-100");
+  CreateElement.classList.add("w-80");
+  CreateElement.classList.add("p-2");
+  CreateElement.classList.add("rounded-lg");
+  CreateElement.classList.add("font-semibold");
+  CreateElement.classList.add("my-2");
+  ShowComment.appendChild(CreateElement1);
+  CreateElement1.appendChild(Createimg);
+  CreateElement1.appendChild(CreateElement);
+  addMent.value = "";
+}
+
 sugge.addEventListener("click", () => {
   card1.classList.remove("hidden");
 });
